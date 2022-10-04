@@ -1,6 +1,6 @@
 # 4. Sezon Yetişkinler 
 
-## Proje 1 
+## Proje 2 
 
 <p>Html ve Css temelleri</p>
 
