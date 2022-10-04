@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    font-family: "Oxygen", sans-serif;
+    transition: all 0.5s;
+   
+  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+}
+
+#social-topbar {
+    background-image: url(./img/header1.jpg);
+    background-size:cover;
+    background-position: center;
+    color: white;
+    height: 247px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+    box-shadow: 5px 5px 10px gray ;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    color: gold;
+    padding: 0 5rem;
+    /* position: absolute; */
+    left: 1%;
+    top: 185px;
+ 
+}
+
+i{
+    font-size: 2rem;
+    padding: 20px;
+    
+}
+
+i:hover {
+    transform: scale(1.5,1.5) rotate(15deg);
+    color: rgb(212, 132, 145);
+
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex: 1 4;
+    justify-content: space-between;    
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    height: 80vh;    
+    background-image: linear-gradient(lightgray,rgb(78, 77, 77));
+}
+
+header {
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+
+#header-img {
+    width: 100%;
+    height: 250px;
+    
+}
+nav {
+    width: 400px;
+    min-width: 400px;
+    
+}
+
+nav ul li {
+    margin-top: 60px ;
+    margin-left: 40px;
+    list-style: none;
+    height: 2em;
+    font-size: 1.5em;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 1.6em;
+    text-shadow: 2px 3px 2px lightgray;
+    font-family: 'Pacifico', cursive;
+}
+
+.imgs {
+    position: relative;
+} 
+.slogan {
+    display: block;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5rem;
+    color: gold;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+
+.carousel {        
+    width: 78vw;
+    height: 67vh;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    box-shadow: 0 2px 8px 20px rgba(20, 23, 28, .15);
+   
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 13, 13);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: gold;
+    align-items: center;
+    
+    
+    
+}
+
+.mail {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    height: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.catalog {
+    flex: 1 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    overflow-y: scroll;
+
+}
+
+.content {
+    
+    width: 48%;
+    height: 60vh;
+    
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    padding: 5px;
+    background-size: cover;
+    border: 1px solid gray;
+}
+
+.rsm {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+h5 {
+    margin: 10px;
+    color: gold;
+    font-size: 2em;
+}
+
+.text {
+    margin: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 45px;
+    border: 1px solid darkgoldenrod;
+    margin: 15px;
+}
+
+.h1-header {
+    text-align: center;
+    background-color: rgb(13, 13, 13);
+    color: gold;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    
+    
+}
+
+#about-img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 40px;
+    float: left;
+        
+}
+
+.about-text-container {
+    margin: 30px 40px 10px 0;
+}
+
+.about-text {
+    font-size: 17px;
+    text-indent: 40px;
+    padding: 20px;
+}
+
+.prices {
+    width: 30%;
+    height:fit-content;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    background-color: lightgray;
+    
+
+}
+
+.prices-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.prices-header {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(13, 13, 13);
+    color: gold;
+    width: 100%;
+    border-radius:0 0 10px 10px;
+}
+#price {
+    overflow-y: scroll;
+}
